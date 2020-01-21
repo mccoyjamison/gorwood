@@ -1,0 +1,257 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+ /**  Basic Page CSS **/
+
+body {
+	font-family: serif;
+	font-weight: 300;
+	font-size: 2em;
+	position: relative;
+	padding-top: 0;
+	background-image: url(../img/concrete_seamless.png);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "EB Garamond", serif;
+	font-weight: 200;
+	margin: 0;
+} 
+
+
+
+/** Header Navigation **/
+
+
+header .navbar-default {
+    background: rgba(220,220,220,1.00);
+    
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #3C86D2;
+}
+
+#navmain {
+	text-shadow: none;
+}
+
+.social .fa-facebook:hover {
+    color: #4060A5;
+}
+
+.social .fa-twitter:hover {
+    color: #00ABE3;
+}
+
+.social .fa-google-plus:hover {
+    color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+    color: #0094BC;
+}
+
+
+/** Navbar Brand **/
+
+@media only screen 
+and (min-width: 375px)
+and (max-width: 768px) {
+
+	.brand {
+		margin-top: 50px;
+		padding: 20px 0;
+		padding-left: 15px;
+	}
+
+
+	header .navbar-brand span.subhead {
+		font-family: "EB Garamond", sans-serif;
+		font-size: .5em;
+		font-weight: 200;
+		display: block;
+	}
+}
+
+header .navbar-brand {
+	background: url(../img/Gorwood%20Logo-2.png);
+	background-repeat: no-repeat;
+	height: auto;
+	float: left;
+}
+
+.brand {
+	margin-top: 50px;
+	padding: 20px 0;
+	padding-left: 15px;
+}
+
+header .navbar-brand h1 {
+	margin: 0;
+	font-size: 2em;
+	font-weight: 400;
+	padding-left: 100px;
+}
+
+
+header .navbar-brand span.subhead {
+	font-family: "EB Garamond", sans-serif;
+	font-size: .5em;
+	font-weight: 200;
+	display: block;
+}
+
+/**  Navbar Toggle **/
+
+header .navbar-toggle {
+	background-color: #073B9F;
+}
+
+@media only screen
+and (max-width: 768px) {
+header .navbar-collapse {
+	background-color: rgba(167,166,177,0.7);
+ }
+}
+
+
+/**  Page **/
+
+.page {
+	padding: 50px 0;
+	h2 {
+		text-align: center;
+		margin-bottom: 30px;
+		color: #3C86D2
+		}
+}
+
+
+.fa-database {
+	color: navy;
+	padding-top: 30px;
+}
+
+.fa-archive {
+	color: #656565;
+	padding-top: 30px;
+}
+
+.fa-cloud {
+	color: #333aed;
+	padding-top: 30px;
+}
+
+.fa-file-text {
+	padding-top: 30px;
+}
+
+.fa-film {
+	color: rgba(94,52,53,1.00);
+	padding-top: 30px;
+	}
+	
+
+/**  Page -- Mission **/
+
+#mission {
+	background-color: #A7A6B1;
+	background-image: linear-gradient(to bottom, #ffffff, #89C4E8);
+}
+
+/**  Page -- Services **/
+
+#services {
+	background-color: rgba(210,210,210,.5);
+}
+
+.service {
+	padding: 0 20px;
+	text-align: center;
+	h3 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-weight: 600;
+	}
+}
+
+
+@media only screen 
+and (min-width: 0px)
+and (max-width: 650px) {
+	
+	header .navbar-brand h1 {
+		margin: 0;
+		font-size: 1.2em;
+		font-weight: 400;
+		padding-left: 75px;
+	}
+
+}
+
+@media only screen 
+and (min-width: 651px)
+and (max-width: 750px) {
+	
+  .service p {
+    padding: 0 20%;
+  }
+}
+
+/** Contact **/
+
+address {
+	a {
+		color: black;
+		}
+	a:hover {
+    text-decoration: none;
+	color: rgba(7,111,9,1.00);
+}
+	
+}
+
+/** Footer Navigation **/
+
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(51, 58, 237, 0.75), rgba(0, 0, 0, 0));
+  height: 1px;
+}
+
+footer .navbar-default {
+	background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+	box-shadow: none;
+	li {
+	color: #000
+	}
+}
+
+footer {
+	a {
+		color: black;
+		}
+	a:hover {
+		color: #333aed;
+		text-decoration: none;
+		}
+}
+
+
+
+
+
+
+
